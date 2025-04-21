@@ -9,3 +9,10 @@
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
 }
+
+.emptyMessage {
+  text-align: center;
+  color: #ff0000;
+  font-style: italic;
+  margin-top: 2rem;
+}

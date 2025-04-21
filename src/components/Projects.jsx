@@ -11,7 +11,7 @@ const Projects = () => {
       description: 'Sebuah website portfolio pribadi dengan React.',
       tech: ['React', 'CSS Module'],
       image: '/project.png',
-      link: 'https://github.com/hanif/portfolio'
+      link: 'https://github.com/Fakhmi-ashiddiq/uts_pemwebLanjut/tree/master'
     },
     {
       title: 'Aplikasi Mountain',
@@ -28,9 +28,14 @@ const Projects = () => {
     <section id="projects" className={styles.projects}>
       <h2>Proyek Saya</h2>
       <div className={styles.grid}>
-        {projects.map((project, index) => (
+      {projects.length > 0 ? (
+        projects.map((project, index) => (
           <ProjectCard key={index} {...project} />
-        ))}
+        ))
+      ) : (
+        <p className={styles.emptyMessage}>Tidak ada proyek yang tersedia.</p>
+      )}
+
       </div>
     </section>
   );
