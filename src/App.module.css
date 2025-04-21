@@ -1,0 +1,20 @@
+/* src/App.module.css */
+.container {
+  width: 100%;
+  padding: 2rem;
+  font-family: sans-serif;
+  line-height: 1.6;
+  background-color: grey;
+}
+
+
+h1, h2 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}

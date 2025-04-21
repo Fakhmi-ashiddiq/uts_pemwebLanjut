@@ -1,0 +1,27 @@
+.header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #282c34;
+  color: white;
+}
+
+.header h1 {
+  color: chocolate;
+}
+
+.profileImg {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #61dafb;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}

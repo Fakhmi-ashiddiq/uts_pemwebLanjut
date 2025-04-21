@@ -1,0 +1,29 @@
+.about {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.imageContainer {
+  flex: 1;
+  max-width: 250px;
+}
+
+.profileImg {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid #ccc;
+}
